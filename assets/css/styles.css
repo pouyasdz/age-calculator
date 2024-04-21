@@ -1,0 +1,85 @@
+@import "globals.css";
+@import "colors.css";
+@import "mediaquery.css";
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.container {
+    width: 90%;
+    height: 65%;
+    margin-top: 5rem;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px 12px 100px 12px;
+}
+.container .input-group{
+    width: 100%;
+    max-width: 100%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:1rem;
+}
+.container .input-group label{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.container .input-group input {
+    height: 45px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.container .input-group input:focus{
+    border-color: hsl(259, 100%, 65%);
+}
+
+.container button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container button img{
+    width: 100%;
+}
+.container .btn-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: auto;
+    position: relative;
+    margin-top: 3rem;
+}
+.container ul{
+    margin-top: 3rem;
+    font-size: 45px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+.error{
+    font-size: 12px;
+    font-style: italic;
+}

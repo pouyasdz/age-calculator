@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-light-grey">
+    <main class="container bg-white">
+      <form action="" class="input-group" onsubmit="app.submit()">
+        <div>
+          <label class="text-smokey-grey" for="day">day</label>
+          <input class="text-off-black" 
+          type="text" name="" 
+          id="day" placeholder="DD"
+          onchange="app.handleChange(this)"
+          />
+          <span class="text-error error"></span>
+        </div>
+        
+        <div>
+          <label class="text-smokey-grey" for="day">month</label>
+          <input class="text-off-black" 
+          type="text" name="" 
+          id="month" placeholder="MM"
+          onchange="app.handleChange(this)"
+          />
+          <span class="text-error error"></span>
+        </div>
+        
+        <div>
+          <label class="text-smokey-grey" for="day">year</label>
+          <input class="text-off-black" 
+          type="text" name="" 
+          id="year" placeholder="YYYY"
+          onchange="app.handleChange(this)"
+          />
+          <span class="text-error error"></span>
+        </div>
+      </form>
+      <div class="btn-container">
+        <span class="divider"></span>
+        <button class="bg-primary" onclick="app.submit()">
+          <img src="assets/images/icon-arrow.svg" alt="" />
+        </button>
+      </div>
+
+      <ul>
+        <li class="text-off-black"><span class="text-primary">--</span> years</li>
+        <li class="text-off-black"><span class="text-primary">--</span> months</li>
+        <li class="text-off-black"><span class="text-primary">--</span> days</li>
+      </ul>
+    </main>
+
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">pouya sadeghzadeh</a>.
+  </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

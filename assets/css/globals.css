@@ -1,0 +1,68 @@
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins-Italic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins-ExtraBoldItalic.ttf);
+  font-weight: 800;
+  font-style: italic;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+input {
+  width: 100%;
+  border-radius: 7px;
+  border: 1px solid hsl(0, 0%, 86%);
+  outline: none;
+  padding: 1rem;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 1px solid hsl(0, 0%, 86%);
+  margin: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

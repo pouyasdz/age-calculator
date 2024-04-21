@@ -1,0 +1,53 @@
+/* purple */
+.text-primary{
+    color: hsl(259, 100%, 65%);
+}
+.bg-primary{
+    background-color: hsl(259, 100%, 65%);
+}
+.border-primary{
+    border-color: hsl(259, 100%, 65%);
+}
+
+/* red */
+.text-error{
+    color: hsl(0, 100%, 67%);
+}
+.bg-error{
+    background-color: hsl(0, 100%, 67%);
+}
+.border-error{
+    border-color: hsl(0, 100%, 67%);
+}
+
+/* neutral */
+.text-white{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.text-of-white{
+    color: hsl(0, 0%, 94%);
+}
+.bg-of-white{
+    background-color: hsl(0, 0%, 94%);
+}
+.text-light-grey{
+    color: hsl(0, 0%, 86%);
+}
+.bg-light-grey{
+    background-color: hsl(0, 0%, 86%);
+}
+.text-smokey-grey{
+    color: hsl(0, 1%, 44%);
+}
+.bg-smokey-grey{
+    background-color: hsl(0, 1%, 44%);
+}
+.text-of-black{
+    color: hsl(0, 0%, 8%);
+}
+.bg-of-black{
+    background-color: hsl(0, 0%, 8%);
+}

@@ -1,0 +1,42 @@
+@media only screen and (min-width: 400px) {
+  body {
+    align-items: center !important;
+  }
+  .container {
+    margin-top: 0 !important;
+    width: 80% !important;
+    height: max-content !important;
+  }
+  .btn-container button {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    right: 0 !important;
+  }
+  .btn-container {
+    margin-top: 2rem !important;
+  }
+  .container ul {
+    margin-top: 1rem !important;
+    margin-right: auto !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 45% !important;
+    border-radius: 12px 12px 10rem 12px !important;
+  }
+  .input-group {
+    width: 70% !important;
+    margin-right: auto !important;
+  }
+  .container ul {
+    font-size: 54px !important;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    width: 35% !important;
+  }
+}
